@@ -1,0 +1,51 @@
+.team-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.team-card {
+  max-width: 300px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.team-card img {
+  width: 100%;
+  height: auto;
+}
+
+.team-card h3 {
+  margin: 15px 0 5px;
+  font-size: 1.2rem;
+}
+
+.team-card p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.team-card .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.team-card .social-links a {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+
+.card-img > img {
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.team-card > img:hover {
+  transform: scale(1.1); /* Efecto de zoom-in al hacer hover */
+}
